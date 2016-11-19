@@ -1,0 +1,4 @@
+./schematool -initSchema -dbType mysql hive2.1 新增功能
+DROP DATABASE IF EXISTS users CASCADE;
+hive> set mapreduce.map.memory.mb=4096;
+hive> set mapreduce.reduce.memory.mb=5120;
